@@ -12,7 +12,9 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var myLabel: UILabel!
     
-    var ok = "I don't know"
+    
+    //I am just playing around
+    
     var buttontouch = false
     var buttonCount = 0
     
