@@ -17,12 +17,15 @@ class ViewController: UIViewController {
     
     //I am just playing around
     
+    
+    var funny = "This is funny!"
     var buttontouch = false
     var buttonCount = 0
     
     @IBAction func buttonTapped(_ sender: Any) {
         buttonCount += 1
         print(buttonCount)
+        print(funny)
         
         if buttonCount >= 10{
             if buttontouch == false{
